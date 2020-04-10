@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig', 
+    'articles.apps.ArticlesConfig',
     'django.contrib.admin',
     'crispy_forms',
     'django.contrib.auth',
@@ -110,7 +111,7 @@ AUTH_USER_MODEL = 'users.CustomUser'
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
